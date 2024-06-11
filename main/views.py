@@ -27,7 +27,7 @@ def index(request):
         }
         print(data)
     else:
-        data = {}
+        data = {"data":"empty"}
 
     return render(request, "main/index.html", data)
  
